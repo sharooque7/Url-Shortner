@@ -6,6 +6,9 @@ const app = express();
 
 const port = process.env.PORT || 5000;
 
+const MONGODB_URI =
+  "mongodb+srv://practice:Mongo7$@practice.a2eyo.mongodb.net/UrlShortner?retryWrites=true&w=majority";
+
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 
